@@ -34,7 +34,7 @@ Implementations
 
 4. `DPWideTheilSen`: `link to code here`
 
-5. `NoisyStats`:  [link to main code file](https://github.com/anonymous-conf/dplr/code/NoisyStats.py)
+5. `NoisyStats`:  [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/NoisyStats.py)
 
 Data Files for Experimental Evaluation
 --------------------------------------
