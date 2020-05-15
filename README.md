@@ -26,21 +26,21 @@ release DP versions of the sufficient statistics without any extra privacy cost.
 Implementations
 ---------------
 
-1. `DPGradDescent`: [link to main code file](https://github.com/anonymous-conf/dplr/code/DPGradDescent.py)
+1. `DPGradDescent`: [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/DPGradDescent.py)
 
-2. `dpMedTS_exp`: computes `DPExpTheilSen` [link to main code file](https://github.com/anonymous-conf/dplr/code/DPTS_algorithms.py)
+2. `dpMedTS_exp`: computes `DPExpTheilSen` [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/DPTS_algorithms.py)
 
-3. `dpMedTS_exp_wide`: computes `DPWideTheilSen` [link to main code file](https://github.com/anonymous-conf/dplr/code/DPTS_algorithms.py)
+3. `dpMedTS_exp_wide`: computes `DPWideTheilSen` [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/DPTS_algorithms.py)
 
 4. `dpMedTS_ss_ST_no_split`: computes `DPSSTheilSen` with a smooth sensitivity calculation based on
-the student's T distribution [link to main code file](https://github.com/anonymous-conf/dplr/code/DPTS_algorithms.py)
+the student's T distribution [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/DPTS_algorithms.py)
 
-5. `NoisyStats`: [link to main code file](https://github.com/anonymous-conf/dplr/code/NoisyStats.py)
+5. `NoisyStats`: [link to main code file](https://github.com/anonymous-conf/dplr/blob/master/code/NoisyStats.py)
 
 Example Usage
 -------------
 
-In [example.py](https://github.com/anonymous-conf/dplr/code/example.py),
+In [example.py](https://github.com/anonymous-conf/dplr/blob/master/code/example.py),
 we show how to run each method.
 
 Experimental Evaluation in Main Paper
