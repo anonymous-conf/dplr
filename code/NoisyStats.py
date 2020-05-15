@@ -1,6 +1,16 @@
 import numpy as np
 
-### Add documentation
+'''
+NoisyStats: 
+an eps-DP algorithm that perturbs the OLS sufficient statistics for
+simple linear regression.
+
+x, y: numpy arrays containing data
+xm, ym: means of x and y respectively
+eps: privacy parameter
+xnew: target x value
+      (e.g. xnew = [0.25, 0.75] for point estimates at x = 0.25, 0.75)
+'''
 def NoisyStats(x, y, xm, ym, n, eps, xnew):
     eps = eps/3.0
 
