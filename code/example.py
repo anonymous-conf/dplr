@@ -10,7 +10,7 @@ Example use of methods for differentially private simple linear regression.
 
 def main():
     eps = 1.0 # privacy parameter
-    n = 1000 # no. of (x,y) pairs to generate
+    n = 400 # no. of (x,y) pairs to generate
     varx = 0.05 # variance of x
     barx = 0.5 # mean of x
     vare = 0.005 # conditioned on x, variance of y
@@ -43,9 +43,14 @@ def main():
                        DPTS.dpMedTS_exp_wide,
                        DPTS.dpMedTS_ss_ST_no_split,
                        NS.NoisyStats]:
-            p25, p75 = method(x, y, xm, ym, n, eps, xnew)
-            if p25 is not None: p25result.append(p25)
-            if p75 is not None: p75result.append(p75)
+            res = method(x, y, xm, ym, n, eps, xnew)
+            if res is not None:
+                (p25, p75) = res
+                p25result.append(p25)
+                p75result.append(p75)
+            else:
+                p25result.append(0)
+                p75result.append(0)
         p25results.append(p25result)
         p75results.append(p75result)
     p25results = np.array(p25results)
