@@ -2,7 +2,7 @@ Differentially Private Linear Regression
 ========================================
 
 This repository contains algorithms for performing differentially private
-simple linear regression. We also provide example usage of the main algorithms.
+simple linear regression. We also provide an example usage of the main algorithms.
 
 Families of Algorithms
 ----------------------
